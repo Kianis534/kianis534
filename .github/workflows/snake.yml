@@ -26,5 +26,5 @@ jobs:
           commit_message: "Update snake animation"
           branch: main
           file_pattern: "output/github-contribution-grid-snake-bright.svg"
-          author_name: "GitHub Actions"
-          author_email: "actions@github.com"
+          commit_user_name: "GitHub Actions"
+          commit_user_email: "actions@github.com"
