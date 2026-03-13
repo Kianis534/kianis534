@@ -76,10 +76,14 @@
 <!-- GitHub Trophy Section -->
 
 <div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=Kianis534&theme=dracula&no-frame=true&no-bg=true&margin-w=15&margin-h=15" />
-
+  <img src="https://github-profile-trophy.vercel.app/?username=Kianis534&theme=dracula&no-frame=true&no-bg=true&column=-1&margin-w=10&margin-h=10" />
 </div>
+
+<!--
+<div align="center">
+<img src="https://github-trophies.vercel.app/?username=Kianis534&theme=dracula&no-frame=true&column=7" /> 
+</div>
+-->
 
 <br>
 
@@ -102,7 +106,7 @@
 <!-- Snake Animation -->
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Kianis534/Kianis534/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Kianis534/Kianis534/main/output/github-contribution-grid-snake-rainbow.svg" />
 </p>
 
 <br>
