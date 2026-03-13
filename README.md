@@ -75,8 +75,9 @@
 
 <!-- GitHub Trophy Section -->
 
+<!-- GitHub Trophy Section -->
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Kianis534&theme=dracula&no-frame=true&no-bg=true&column=-1&margin-w=10&margin-h=10" />
+  <img src="https://github-profile-trophy.screw-hand.vercel.app/?username=Kianis534&rank=-UNKNOWN,-C&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=true" alt="GitHub Trophies" />
 </div>
 
 <!--
