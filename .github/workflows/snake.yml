@@ -10,21 +10,28 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout Repo
         uses: actions/checkout@v3
 
-      - name: Generate Snake SVG
+      # Step 2: Force Node.js 24 for JS actions (fixes deprecation warning)
+      - name: Set Node.js 24 for JS actions
+        run: echo "FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true" >> $GITHUB_ENV
+
+      # Step 3: Generate a more beautiful Snake SVG
+      - name: Generate Rainbow Snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: Kianis534
           outputs: |
-            output/github-contribution-grid-snake-bright.svg?palette=bright
+            output/github-contribution-grid-snake-rainbow.svg?palette=rainbow&square_size=20&trail_length=4
 
+      # Step 4: Commit & push the updated Snake SVG
       - name: Commit & Push Snake
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Update snake animation"
+          commit_message: "Update rainbow snake animation"
           branch: main
-          file_pattern: "output/github-contribution-grid-snake-bright.svg"
+          file_pattern: "output/github-contribution-grid-snake-rainbow.svg"
           commit_user_name: "GitHub Actions"
           commit_user_email: "actions@github.com"
