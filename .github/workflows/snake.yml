@@ -1,25 +1,24 @@
 name: Generate Snake
 
-# Trigger every 12 hours or manually
 on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
       - name: Checkout Repo
         uses: actions/checkout@v4
 
-      # Step 2: Force Node.js 24 for JS actions (avoids deprecation)
-      - name: Set Node.js 24 for JS actions
-        run: echo "FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true" >> $GITHUB_ENV
-
-      # Step 3: Generate a visually appealing Rainbow Snake SVG
       - name: Generate Rainbow Snake SVG
         uses: Platane/snk@v3
         with:
@@ -27,14 +26,14 @@ jobs:
           outputs: |
             output/github-contribution-grid-snake-rainbow.svg?palette=rainbow&square_size=20&trail_length=4
 
-      # Step 4: Commit & Push the updated Snake SVG using GITHUB_TOKEN
       - name: Commit & Push Snake
         uses: stefanzweifel/git-auto-commit-action@v5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           commit_message: "Update rainbow snake animation"
           branch: main
           file_pattern: "output/github-contribution-grid-snake-rainbow.svg"
           commit_user_name: "GitHub Actions"
           commit_user_email: "actions@github.com"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          create_branch: false
