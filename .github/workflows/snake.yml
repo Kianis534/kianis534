@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # runs every 12 hours
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,12 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Generate Colorful Snake Animation
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
           github_user_name: Kianis534
           outputs: |
-            output/github-contribution-grid-snake-bright.svg?palette=#FF6B6B,#FFD93D,#6BCB77,#4D96FF,#FF6BFF
+            output/github-contribution-grid-snake-bright.svg?palette=bright
 
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit & Push Snake
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update snake animation"
+          branch: main
+          file_pattern: "output/github-contribution-grid-snake-bright.svg"
+          author_name: "GitHub Actions"
+          author_email: "actions@github.com"
