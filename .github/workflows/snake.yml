@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *" # runs every 12 hours
   workflow_dispatch:
 
 jobs:
@@ -10,11 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: Platane/snk@v3
+      - name: Generate Colorful Snake Animation
+        uses: Platane/snk@v3
         with:
           github_user_name: Kianis534
           outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            output/github-contribution-grid-snake-bright.svg?palette=#FF6B6B,#FFD93D,#6BCB77,#4D96FF,#FF6BFF
 
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
