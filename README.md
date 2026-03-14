@@ -91,21 +91,18 @@
 
 <br>
 
-<div align="center" style="display:flex; justify-content:center; align-items:flex-start; gap:30px; flex-wrap:wrap;">
+<div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kianis534&theme=dracula" style="transform:scale(1.2); transform-origin:top left;" />
+<img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kianis534&theme=dracula" />
+<br><br><br>
+<img width="45%" src="https://github-readme-streak-stats.herokuapp.com/?user=Kianis534&theme=dracula&hide_border=true" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kianis534&theme=dracula&hide_border=true" style="transform:scale(1.2); transform-origin:top left;" />
-
-</div>
-
-<br>
-
-<!-- Contribution Graph -->
+<br><br>
 
 <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Kianis534&theme=dracula&hide_border=true&area=true&custom_title=Contribution%20Graph%20(Last%2031%20Days)&bg_color=0d1117&color=00ffcc&line=00ffcc&point=ffffff" />
 
-<br>
+</div>
+
 
 <!-- Snake Animation -->
 
