@@ -26,7 +26,6 @@
 ## 👨‍💻 About Me
 
 > *I build things for the web — and increasingly, for AI. Passionate about clean architecture, great UX, and shipping products that actually matter.*
-
 ```typescript
 const abdullah = {
   role:              "Full-Stack Software Engineer",
@@ -131,15 +130,13 @@ const abdullah = {
 <br>
 
 <div align="center">
-
 <img width="90%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kianis534&theme=dracula" />
 <br><br><br>
 <img width="45%" src="https://github-readme-streak-stats.herokuapp.com/?user=Kianis534&theme=dracula&hide_border=true" />
 
 <br><br>
 
-<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Kianis534&theme=dracula&hide_border=true&area=true&custom_title=Contribution%20Graph%20(Last%2031%20Days)&bg_color=0d1117&color=00ffcc&line=00ffcc&point=ffffff" />
-
+<img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=Kianis534&theme=dracula" />
 </div>
 
 
@@ -182,10 +179,11 @@ const abdullah = {
 </tr>
 </table>
 </div>
+<br><br>
 
+⭐ **From [Kianis534](https://github.com/Kianis534)** — Always building, learning, and improving!
 
 <p align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=120&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=white" />
 </p>
 
-⭐ **From [Kianis534](https://github.com/Kianis534)** — Always building, learning, and improving!
