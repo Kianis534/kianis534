@@ -50,6 +50,8 @@ Currently exploring advanced RAG pipelines and system design at scale. Open to f
   />
 </div>
 
+<br/> <br/>
+
 <div align="center">
   <img width="45%" src="https://github-readme-stats.vercel.app/api?username=Kianis534&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
   <img width="45%" src="https://github-readme-streak-stats.herokuapp.com/?user=Kianis534&theme=tokyonight&hide_border=true" />
