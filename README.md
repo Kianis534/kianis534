@@ -38,7 +38,7 @@ Currently deep in RAG pipelines and distributed systems.
 
 ## GitHub
 
-<br/> <br/>
+<br/>
 
 <div align="center">
   <img width="45%" src="https://github-readme-stats.vercel.app/api?username=Kianis534&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
@@ -51,8 +51,8 @@ Currently deep in RAG pipelines and distributed systems.
 
 <div align="center">
   <img
-    src="https://github-profile-trophy.screw-hand.vercel.app/?username=Kianis534&rank=-UNKNOWN&theme=dracula&no-frame=true&no-bg=true&column=-1&row=1&margin-w=8&margin-h=8"
-    onerror="this.src='https://github-profile-trophy.vercel.app/?username=Kianis534&rank=-UNKNOWN&theme=dracula&no-frame=true&no-bg=true&column=-1&margin-w=10&margin-h=10'"
+    src="https://github-profile-trophy.screw-hand.vercel.app/?username=Kianis534&rank=-UNKNOWN&theme=dracula&no-frame=true&no-bg=false&column=-1&row=1&margin-w=8&margin-h=8"
+    onerror="this.src='https://github-profile-trophy.vercel.app/?username=Kianis534&rank=-UNKNOWN&theme=dracula&no-frame=true&no-bg=false&column=-1&margin-w=10&margin-h=10'"
     alt="GitHub Trophies"
   />
 </div>
