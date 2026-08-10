@@ -4,6 +4,9 @@
   <!-- <a href="YOUR_LINKEDIN_URL"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp; -->
   <a href="https://github.com/Kianis534"><img src="https://img.shields.io/badge/GitHub-1F2937?style=for-the-badge&logo=github&logoColor=white" /></a>&nbsp;
   <a href="https://mail.google.com/mail/?view=cm&to=kianis534@gmail.com" target="_blank"><img src="https://img.shields.io/badge/kianis534@gmail.com-D44638?style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;
+  <a href="https://www.linkedin.com/in/muhammad-abdullah-raja">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>&nbsp;
   <img src="https://img.shields.io/badge/kianis534-5865F2?style=for-the-badge&logo=discord&logoColor=white" />&nbsp;
   <!-- <a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=About.me&logoColor=white" /></a> -->
 </p>
@@ -13,7 +16,7 @@
 
 I build scalable full-stack applications and AI-powered products. I care about clean architecture, fast iteration, and shipping things that are genuinely useful.
 
-Currently deep in RAG pipelines and distributed systems.
+Currently deep in Agentic RAG, GraphRAG pipelines and distributed systems.
 
 > *I debug code by day and ride horses by dusk.*
 
